@@ -2,6 +2,7 @@
 buildscript {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
 
@@ -21,6 +22,9 @@ def getExtOrIntegerDefault(name) {
 apply plugin: 'com.android.library'
 
 android {
+  lintOptions {
+    abortOnError false
+  }
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
 
@@ -32,8 +36,8 @@ android {
 
 repositories {
   google()
-  jcenter()
   mavenCentral()
+  jcenter()
 }
 
 dependencies {
