@@ -1,5 +1,5 @@
 
-#  `@react-native-picker/picker`
+#  `cef-react-native-picker / fork of @react-native-picker/picker`
 
 
 
@@ -12,7 +12,7 @@
 
 ## Supported Versions
 
-| @react-native-picker/picker | react-native |
+| cef-react-native-picker | react-native |
 | --- | --- |
 | >= 1.16.0 | 0.61+ |
 | >= 1.2.0 | 0.60+ or 0.59+ with [Jetifier](https://www.npmjs.com/package/jetifier) |
@@ -24,11 +24,11 @@ See more info [here](https://github.com/react-native-picker/picker/issues/45#iss
    
 ## Getting started
 
-`$ npm install @react-native-picker/picker --save`
+`$ npm install cefonline/cef-react-native-picker --save`
 
 or
 
-`$ yarn add @react-native-picker/picker`
+`$ yarn add cefonline/cef-react-native-picker`
 
 ### For React Native v0.60 and above (Autolinking)
 
